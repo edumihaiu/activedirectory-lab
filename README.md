@@ -10,8 +10,13 @@ I started doing this lab to gain hands-on experience with deploying and managing
 
 ## Environment
 - KVM - virtualization platform
-- Windows Server 2025 [iso](https://info.microsoft.com/ww-landing-windows-server-2022.html) - Domain Controller
-- Windows 11 [iso](https://www.microsoft.com/en-us/evalcenter/download-windows-11-enterprise)- Domain-joined client
+- Windows Server 2025 - Domain Controller - [iso](https://info.microsoft.com/ww-landing-windows-server-2022.html)
+- Windows 11 - Domain-joined client - [iso](https://www.microsoft.com/en-us/evalcenter/download-windows-11-enterprise)
 - Group Policy Management Console (GPMC) – Policy configuration
 - PowerShell / Command Prompt – Administration and scripting
 - Active Directory Users and Computers (ADUC) – User and group management
+
+## Virtual machines setup
+
+![Vm setup](screenshots/01-vmsetup.png)
+
