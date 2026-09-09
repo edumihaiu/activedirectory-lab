@@ -38,6 +38,8 @@ I started doing this lab to gain hands-on experience with deploying and managing
 ![DHCP scope configuration](screenshots/08-dhcp/new-scope-config.png)
 ![Scope options](screenshots/08-dhcp/scope-options.png)
 
+*Correction: Start IP address is 10.10.10.20*
+
 ## Design a tiered OU structure in ADUC, separating privileged Tier 0 accounts from regular users, organized by department
 
 ![OU structure in ADUC](screenshots/03-ou-structure/ou-structure.png)
