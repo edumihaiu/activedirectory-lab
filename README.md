@@ -24,7 +24,7 @@ I started doing this lab to gain hands-on experience with deploying and managing
 
 ## Deploy a Windows Server 2022 VM and a Windows 11 client VM, both attached to the isolated network.
 
-![NIC configuration](screenshots/01-network/nic-config.png)
+![NIC configuration](screenshots/01-network/nic-setup.png)
 ![NIC configuration](screenshots/01-network/ipconfig.png)
 ## Install the Active Directory Domain Services role and promote the server to a new forest, `labcorp.com`
 
@@ -40,7 +40,7 @@ I started doing this lab to gain hands-on experience with deploying and managing
 
 ## Design a tiered OU structure in ADUC, separating privileged Tier 0 accounts from regular users, organized by department
 
-![OU structure in ADUC](screenshots/03-ou-structure/aduc-tree.png)
+![OU structure in ADUC](screenshots/03-ou-structure/ou-structure.png)
 
 ## Join the domain from the Windows 11 client, check if DHCP is working properly
 
@@ -50,13 +50,12 @@ I started doing this lab to gain hands-on experience with deploying and managing
 ## Configure a domain-wide password policy on the Default Domain Policy, enforcing minimum length of 3 characters and no complexity (tests only)
 
 ![Password policy settings](screenshots/04-gpo-password/password-policy.png)
-![Password policy settings](screenshots/04-gpo-password/reset-password.png)
-![Password policy settings](screenshots/04-gpo-password/change-password.png)
-
+![Password policy settings](screenshots/04-gpo-password/reset-password.webp)
+![Password policy settings](screenshots/04-gpo-password/change-password.webp)
 
 ## Create a GPO restricting Control Panel access for standard users, linked to the Users OU
 
-![Control Panel restriction GPO](screenshots/05-gpo-controlpanel/apply-restricition.png)
+![Control Panel restriction GPO](screenshots/05-gpo-controlpanel/apply-restriction.png)
 
 ## Configure a GPO to automatically map a shared network drive for domain users at logon
 
